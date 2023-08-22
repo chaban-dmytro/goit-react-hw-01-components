@@ -1,0 +1,24 @@
+.transactionHistory {
+  max-width: 600px;
+  width: 100%;
+  text-align: center;
+}
+
+.transactionHistory thead {
+  background-color: aqua;
+  text-transform: uppercase;
+}
+
+.transactionHistory th {
+  padding: 5px;
+  color: #fff;
+}
+
+.transactionHistory td {
+  padding: 5px;
+  text-transform: capitalize;
+}
+
+.transactionHistory tr:nth-child(2n) {
+  background-color: gainsboro;
+}
